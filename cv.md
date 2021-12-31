@@ -21,4 +21,5 @@ Near about two years I have been working as marketer and often on my work I meet
 - Trello
 ****
 ## LANGUAGE SKILLS
+- Russian **Native-Speaker**
 - English **Pre-Intermediate**
