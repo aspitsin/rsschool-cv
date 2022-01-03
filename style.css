@@ -1,3 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #43484d;
+}
+
+h1 {
+   font-weight: 800; 
+}
+
+h2 {
+  border-bottom: 1px solid #43484d;
+}
+
+section {
+  padding: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.page-header {
+    background-color: #ffffff;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    list-style: none; 
+}
+
+.nav-item {
+    display: inline;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #43484d;
+    transition: color 0.5s;
+  }
+
+.nav-link:hover {
+    color: black;
+}
+
+.main-section {
+  display: flex;
+}
+
+.main-section div {
+  display: flex;
+  /*flex: 0 1 50%;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section div:nth-child(1){
+  flex: 1; 
+}
+
+.main-section div:nth-child(2){
+  flex: 2; 
+}
+
+.main-section img {
+  width: 200px;
+  border-radius: 50%; 
+}
+
+.main-section h1 {
+  font-size: 2rem;
+}
+.main-container {
+  display: flex;
+}
+
+.main-container li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.contacts-item a{
+  color: #43484d;
+  transition: color 0.5s;
+}
+
+.contacts-item a:hover{
+  color: black;
+  transition: color 0.5s;
+}
+
+.aside {
+  flex: 1;
+  background-color: #F8F8FF;
+}
+
+.aside h2{
+  text-align: center;
+}
+
+.article {
+  flex: 2;
+}
+
+.article h2{
+  text-align: center;
+}
+
+.projects-img img {
+  width: 400px;
+}
+
+.page-footer {
+    background-color: #ffffff;
+}
+
+.page-footer__inner {
+    color: #2d2d44;
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer__inner div {
+  padding: 20px;
+}
+
+.page-footer__logo img {
+    width: 110px;
+}
+
+.page-footer__copyright p {
+  font-weight: 800;
+}
+
+.page-footer__github img {
+  width: 50px;
 }
