@@ -75,7 +75,6 @@ section {
 
 .main-section div {
   display: flex;
-  /*flex: 0 1 50%;*/
   justify-content: center;
   align-items: center;
 }
